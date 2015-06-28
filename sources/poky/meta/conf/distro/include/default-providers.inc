@@ -46,3 +46,7 @@ PREFERRED_PROVIDER_bluez4 ?= "bluez4"
 PREFERRED_PROVIDER_bluez-hcidump ?= "bluez-hcidump"
 # Alternative is ltp-ddt in meta-oe: meta-oe/recipes-devtools/ltp-ddt/ltp-ddt_0.0.4.bb
 PREFERRED_PROVIDER_ltp ?= "ltp"
+
+PREFERRED_PROVIDER_wpa-supplicant-cli ?= "wpa-supplicant-wl18xx"
+PREFERRED_PROVIDER_wpa-supplicant-passphrase ?= "wpa-supplicant-wl18xx"
+PREFERRED_PROVIDER_wpa-supplicant ?= "wpa-supplicant-wl18xx"
