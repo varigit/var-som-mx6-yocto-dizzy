@@ -1,0 +1,1 @@
+# Variscite BSP default versions
