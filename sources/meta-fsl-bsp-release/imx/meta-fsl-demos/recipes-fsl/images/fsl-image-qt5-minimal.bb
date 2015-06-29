@@ -32,5 +32,9 @@ QT5_IMAGE_INSTALL_mx6 = " \
 
 IMAGE_INSTALL += " \
 ${QT5_IMAGE_INSTALL} \
+minicom \
+tcf-agent \
+openssh-sftp-server \
+fio \
 "
 export IMAGE_BASENAME = "fsl-image-qt5-minimal"
