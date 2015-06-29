@@ -71,8 +71,8 @@ IMAGE_FSTYPES = "tar.bz2 ext3 sdcard ubi"
 
 # Firmware
 MACHINE_FIRMWARE ?= ""
-MACHINE_FIRMWARE_append_mx6q = " firmware-imx-vpu-imx6q"
-MACHINE_FIRMWARE_append_mx6dl = " firmware-imx-vpu-imx6d"
+MACHINE_FIRMWARE_append_mx6 = " firmware-imx-vpu-imx6q"
+MACHINE_FIRMWARE_append_mx6 = " firmware-imx-vpu-imx6d"
 
 # FIXME: Needs addition of firmware-imx of official BSPs
 #MACHINE_FIRMWARE_append_mx35 = " firmware-imx-sdma-imx35"
