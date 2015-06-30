@@ -14,11 +14,13 @@ RDEPENDS_kernel-base = ""
 #
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += " wlconf \
 					iw \
+					hostap-daemon-wl18xx \
 					libnl \
 					crda \
 					wl18xx-target-scripts \
                                       ti-compat-wireless-wl18xx \
                                       wpa-supplicant-wl18xx \
+					bluez5 \
                                       wl18xx-firmware"
 
 
