@@ -10,7 +10,7 @@ COMPATIBLE_MACHINE = "(mx6)"
 
 SRC_URI = "git://github.com/varigit/linux-2.6-imx.git;protocol=git;branch=imx_3.14.28-r0_var3"
 
-SRCREV = "48eded6217c45cc1a72c530fdc46ca3926db28cb"
+SRCREV = "f8a144e973cb330f8a83d35257dfd8a4d8777df4"
 
 FSL_KERNEL_DEFCONFIG = "imx_v7_var_defconfig"
 
