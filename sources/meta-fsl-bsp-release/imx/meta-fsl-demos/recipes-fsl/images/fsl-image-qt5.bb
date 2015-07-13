@@ -36,5 +36,9 @@ QT5_IMAGE_INSTALL_mx6sl = "${@base_contains('DISTRO_FEATURES', 'x11','${QT5_IMAG
 
 IMAGE_INSTALL += " \
 ${QT5_IMAGE_INSTALL} \
+minicom \
+tcf-agent \
+openssh-sftp-server \
+fio \
 "
 export IMAGE_BASENAME = "fsl-image-qt5"

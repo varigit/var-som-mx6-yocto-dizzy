@@ -16,6 +16,8 @@ WLD_IMAGE_INSTALL = "${@base_contains('DISTRO_FEATURES', 'wayland', \
 
 OPENCV_INSTALL = "opencv opencv-dev opencv-apps opencv-samples"
 
+IMAGE_FSTYPES = "tar.bz2 ext3 sdcard ubi"
+
 QT5_IMAGE_INSTALL = ""
 QT5_IMAGE_INSTALL_common = " \
     packagegroup-qt5-core \

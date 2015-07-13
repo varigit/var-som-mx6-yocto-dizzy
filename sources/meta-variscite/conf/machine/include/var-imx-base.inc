@@ -67,7 +67,7 @@ INHERIT += "fsl-dynamic-packagearch"
 SHRINK_UBI = "Y"
 
 
-IMAGE_FSTYPES = "tar.bz2 ext3 sdcard ubi"
+IMAGE_FSTYPES ?= "tar.bz2 ext3 sdcard"
 # IMAGE_FSTYPES = "ubi tar.bz2 ext3 sdcard"
 
 
@@ -118,7 +118,7 @@ EXTRA_IMAGEDEPENDS = "u-boot"
 
 SDCARD_ROOTFS ?= "${DEPLOY_DIR_IMAGE}/${IMAGE_NAME}.rootfs.ext3"
 
-IMAGE_FSTYPES ?= "tar.bz2 ext3 sdcard ubi"
+IMAGE_FSTYPES ?= "tar.bz2 ext3 sdcard"
 
  
 
