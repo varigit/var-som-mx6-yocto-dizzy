@@ -32,7 +32,8 @@ sleep 1
 #
 hciattach -t 10 -s 115200 /dev/ttymxc1 texas 3000000  2> /dev/null
 #
-bluetoothd
+#bluetoothd
+/usr/lib/bluez5/bluetooth/bluetoothd &
 #
 hciconfig hci0 up
 #
